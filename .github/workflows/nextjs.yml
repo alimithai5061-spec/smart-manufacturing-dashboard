@@ -1,0 +1,12 @@
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true
+  },
+  basePath: '/smart-manufacturing-dashboard',
+  assetPrefix: '/smart-manufacturing-dashboard',
+};
+
+export default nextConfig;
